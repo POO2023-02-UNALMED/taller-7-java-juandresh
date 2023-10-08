@@ -37,7 +37,7 @@ public class Fabula extends Escrito{
 				this.enseñanza);
 	}
 	
-	public int palabrasTotales(int p) {
-		return (this.getPaginas()*p); 
+	public int palabrasTotales(int pi) {
+		return (this.getPaginas()*pi); 
 	}
 }
