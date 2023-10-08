@@ -38,7 +38,7 @@ public class Alfabeto extends Pictograma{
 		return alf;
 	}
 	
-	public int palabrasTotales() {
+	public int cantidadLetras() {
 		return Alfabeto.letras.length;
 	}
 }
