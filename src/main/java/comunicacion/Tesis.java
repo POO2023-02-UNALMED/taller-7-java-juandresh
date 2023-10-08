@@ -52,7 +52,22 @@ public class Tesis extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	public String interprtacion() {
+	public String interpretacion() {
 		return this.interpretacion;
+	}
+	
+	public String toString() {
+		return (this.getOrigen()+"\n"+
+				this.getTitulo()+"\n"+
+				this.getAutor()+"\n"+
+				this.getPaginas()+"\n"+
+				this.idea+"\n"+
+				Tesis.argumentos.length+"\n"+
+				this.conclusion+"\n"+
+				this.referencias);
+	}
+
+	public int palabrasTotales(int p) {
+		return (this.getPaginas()*5*p); 
 	}
 }

@@ -26,7 +26,7 @@ public class Alfabeto extends Pictograma{
 		this.interpretacion = interpretacion;
 	}
 	
-	public String interprtacion() {
+	public String interpretacion() {
 		return this.interpretacion;
 	}
 	
@@ -36,5 +36,9 @@ public class Alfabeto extends Pictograma{
 			alf += ", " + Alfabeto.letras[i];
 		}
 		return alf;
+	}
+	
+	public int palabrasTotales() {
+		return Alfabeto.letras.length;
 	}
 }
